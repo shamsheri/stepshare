@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f9f9f9;
+}
+h1, h2 {
+    color: #333;
+}
+a {
+    text-decoration: none;
+    background: #2b77e5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
+$host = "db";          // ✅ use docker service name
 $user = "root";
-$pass = "";
-$db = "stepshare";
+$pass = "root";        // ✅ match docker-compose password
+$db   = "stepshare";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
